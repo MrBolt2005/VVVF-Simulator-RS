@@ -1,0 +1,16 @@
+[package]
+name = "VVVF-Simulator-RS"
+version = "0.1.0"
+edition = "2024"
+
+# Veja mais informações sobre as opções disponíveis em https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cxx = "1.0.95"
+cxx-qt = "0.7"
+cxx-qt-lib = { version="0.7", features = ["qt_full"] }
+serde = "1.0"
+serde_yml = "0.0.12"
+
+[build-dependencies]
+cxx-build = "1.0.95"
